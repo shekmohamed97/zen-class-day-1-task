@@ -1,0 +1,22 @@
+Quesion: write a blong objects and its internal representation in javascript
+
+OBJECTS AND  INTERNAL REPRESENTATION IN JAVASCRIPT :
+ javascript as a versatile and dynamic language relies heavily on objects in javascripts serve as fundamental building blocks ,holding data and functionality within their structurees . understanding how objects are internally represented in javascript is crucial for develpers to leverage their full potential
+
+OBJECTS BASICS:
+   in javascript objects or collections of key value pairs where keys are strings (or symbols )and values can be any data type including other objects ,funtions and primitive types such as numbers or strings
+
+INTERNAL REPRECENTATION :
+    javascript engines implement objects using variable internal mechanisms. one of the most common methods is hash tables . these hash tables use the objects keys to generate a hash that maps to a memory location where the value is stored .this method allows for quick access to values based on there keys 
+
+1. PROPERTIES AND METHODS:
+    properties in javascript objects can be either data properties or accessor properties data properties hold a value while accessor properties difine functions to excute when the properties is read or written 
+
+2. PROTOTYPE-BASED INHERITANCE:
+    javascript objects also utilize prototype - based inheritance each objects has on internal link to another objects called its prototype 
+
+3. MEMORY MANAGEMENT :
+    javascript uses automatic memorymanagement through garbage collections. when objects or no longer referenced the garbage collecter identifies them and freese up memory, preventing memory leaks 
+
+4. MANIPULATING OBJECTS : 
+    developers can manipulat objects in various ways such as add in or deleting properties,changing property values, or creating entirely new objects based on existing once using methods link object.assign()or object spread sytax({...})        

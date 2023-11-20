@@ -1,0 +1,31 @@
+write a blog on diffrence between HTTP1.1 vs HTTP2
+
+ANS:
+THE EVOLIATION:HTTP1.1 VS HTTP2:
+    the internet landscape has continuously evolved since its inception.on of the fundomental components of this digital world is the highper text trencfer protocol(HTTP)the back porn of data comunication on the world wide web. the evolution from HTTP1.1 to HTTP2 represents a significant leap in optimizing web performence and efficiency
+
+HTTP1.1:
+     HTTP1.1 intro in 1999 told the groundwork fro mordern web browsing . however over time the demond for faster more efficient comunication let to certain limitation becoming apparent 
+
+1.performence:
+     HTTP1.1 performence was hindered by its inherend limitation . each resource (image,scripts,stylesh seets)required a separate conectiom leading to latency due to the overhead of establishing multible cnections 
+
+2.header over head:
+    the protocol carried significant header over head resulting in redundant informations being sent withe each request . inpecting both speed and bandwidth 
+
+3.muliplexing:
+    comcurrent request were challanging to manage efficienly . often leading to queueing .known us heat of line blocking 
+
+HTTP2:
+     in responce to these  limitations HTTP2 was introduced in 2015 aiming to overcome the shortcomings of its predecessor and optimize the way data is transmitted between servers and clients 
+
+1.muliplexing:
+    introduced multiplexing allowing mulitiple request and responce to be sent concurrently over a single TCP  connection . this multiplexing capability avoids heat of line brocking and significanly reduces latency.
+
+2.header compression:
+    by utilizing HPACK compression HTTP2 degresess dedundant header information. optimizing bandwidth usage and enhacing speed
+
+3.server push:
+    HTTP2 enables servers to pro actively push resource to claints before they are explaicitly requested . further reducing latency by eliminating the need for aditional round trips
+
+
